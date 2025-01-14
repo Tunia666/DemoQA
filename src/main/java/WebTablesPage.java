@@ -19,8 +19,7 @@ public class WebTablesPage {
     By departmentField = By.id("department");
     By submitButton = By.id("submit");
     By tableRows = By.cssSelector(".rt-tbody .rt-tr-group");
-    By deleteButton = By.xpath("//span[@title='Delete']");
-    By tableRow = By.cssSelector(".rt-tr-group");
+
 
     public WebTablesPage(WebDriver driver) {
         this.driver = driver;
